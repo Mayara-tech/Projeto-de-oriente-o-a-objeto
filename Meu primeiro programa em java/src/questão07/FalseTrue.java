@@ -1,5 +1,5 @@
-package quest„o07;
-
+package quest√£o07;
+// Verificador de caractere;
 import java.util.Scanner;
 
 public class FalseTrue {
