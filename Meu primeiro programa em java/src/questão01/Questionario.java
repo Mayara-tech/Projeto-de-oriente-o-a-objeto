@@ -1,4 +1,4 @@
-package questão01;
+package Questão01;
 // Calculadora de média simples com variaveis de valor pré definida;
 
 public class Questionario {
