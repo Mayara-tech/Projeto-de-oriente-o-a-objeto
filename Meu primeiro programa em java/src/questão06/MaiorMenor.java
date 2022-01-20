@@ -1,4 +1,5 @@
-package quest�o06;
+package questão06;
+// verificador de maior número de 5 variaveis.
 import java.util.Scanner;
 
 public class MaiorMenor {
