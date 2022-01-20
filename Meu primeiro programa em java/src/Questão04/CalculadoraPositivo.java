@@ -1,5 +1,5 @@
-package Questão04;
-
+package QuestÃ£o04;
+// Somador de nÃºmero positivo;
 import java.util.Scanner;
 
 public class CalculadoraPositivo {
@@ -18,7 +18,7 @@ public class CalculadoraPositivo {
 				}
 			
 		} while(numero >=0); 
-			System.out.println("A soma é: "+ resultado);
+			System.out.println("A soma Ã©: "+ resultado);
 			
 		}
 		}
