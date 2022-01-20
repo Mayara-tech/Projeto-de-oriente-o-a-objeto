@@ -1,6 +1,7 @@
-package quest�o01;
+package questão01;
+// Calculadora de média simples com variaveis de valor pré definida;
 
-public class HelloWorldApp {
+public class Questionario {
 	public static void main(String[] args) {
 		double altura1= 1.58;
 		double altura2= 2.07;
