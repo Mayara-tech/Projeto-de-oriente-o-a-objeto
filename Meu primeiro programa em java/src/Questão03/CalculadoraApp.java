@@ -1,38 +1,38 @@
-package Quest„o03;
-
+package Quest√£o03;
+// calculadora de soma, subtra√ß√£o e multiplica√ß√£o de 2 n√∫meros;
 import java.util.Scanner;
 
 public class CalculadoraApp {
 	public static void main(String[] args) {
-		String operaÁ„o;
-		String c·lculo;
+		String opera√ß√£o;
+		String c√°lculo;
 		int numero1;
 		int numero2;
 		int soma;
-		int subtraÁ„o;
-		int multiplicaÁ„o;
+		int subtra√ß√£o;
+		int multiplica√ß√£o;
 		String valores;
 			Scanner ler = new Scanner(System.in);
-			System.out.println("Entre com a operaÁ„o a ser realizada (+, - ou *): ");    
-			operaÁ„o = ler.nextLine();
-			System.out.println("Entre com o primeiro n˙mero: ");    
+			System.out.println("Entre com a opera√ß√£o a ser realizada (+, - ou *): ");    
+			opera√ß√£o = ler.nextLine();
+			System.out.println("Entre com o primeiro n√∫mero: ");    
         numero1 = ler.nextInt();
-        System.out.println("Entre com o segundo n˙mero: ");    
+        System.out.println("Entre com o segundo n√∫mero: ");    
         numero2 = ler.nextInt();
         soma=numero1+numero2;
-        subtraÁ„o=numero1-numero2;
-        multiplicaÁ„o=numero1*numero2;
-        switch (operaÁ„o) {
-        	case "+": c·lculo = ("O resultado da operaÁ„o È: " + soma);
+        subtra√ß√£o=numero1-numero2;
+        multiplica√ß√£o=numero1*numero2;
+        switch (opera√ß√£o) {
+        	case "+": c√°lculo = ("O resultado da opera√ß√£o √©: " + soma);
         	break;
-        	case "-": c·lculo = ("O resultado da operaÁ„o È: " + subtraÁ„o);
+        	case "-": c√°lculo = ("O resultado da opera√ß√£o √©: " + subtra√ß√£o);
         	break;
-        	case "*": c·lculo = ("O resultado da operaÁ„o È: " + multiplicaÁ„o);
+        	case "*": c√°lculo = ("O resultado da opera√ß√£o √©: " + multiplica√ß√£o);
         	break;
-        	default: c·lculo ="OperaÁ„o inv·lida";
+        	default: c√°lculo ="Opera√ß√£o inv√°lida";
         	break;
         }
-        System.out.println(c·lculo);
+        System.out.println(c√°lculo);
 		
 	}
 }
