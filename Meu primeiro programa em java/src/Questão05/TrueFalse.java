@@ -1,5 +1,5 @@
-package Quest„o05;
-
+package Quest√£o05;
+// Verificador de paridade
 import java.util.Scanner;
 
 public class TrueFalse {
